@@ -22,9 +22,18 @@
         android:layout_marginTop="20dp"
         android:text="@string/send_mail" />
 
+    <Button
+        android:id="@+id/buttonCallView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/start_call" />
+
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+
 
 </LinearLayout>
